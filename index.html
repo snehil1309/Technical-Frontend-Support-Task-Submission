@@ -1,0 +1,163 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snehil Sinha Task Submission</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">YAY! It’s BOGO</h2>
+      
+      <!-- toast message -->
+      <div id="toast" class="toast">Product added to cart!</div>
+
+      <!-- First Card Start -->
+      <div class="option-box selected" id="unit-1-box">
+        <input type="radio" name="unit" id="unit-1" checked />
+        <label for="unit-1">
+          <div class="offer-header">
+            <span class="unit-label">1 Unit</span>
+            <span class="discount-badge">10% Off</span>
+          </div>
+          <div class="price">
+            <span class="final-price">$10.00 USD</span>
+            <span class="original-price">$24.00 USD</span>
+          </div>
+          <p class="price-desc">Standard Price</p>
+        </label>
+        <div class="selection">
+          <div class="row">
+            <label>#1</label>
+            <select id="size-1-unit1">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select id="color-1-unit1">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- First Card End -->
+      <!-- Second Card Start -->
+      <div class="option-box" id="unit-2-box">
+        <input type="radio" name="unit" id="unit-2" />
+        <label for="unit-2">
+          <div class="offer-header">
+            <span class="unit-label">2 Units</span>
+            <span class="discount-badge">20% Off</span>
+            <span class="popular-tag">MOST POPULAR</span>
+          </div>
+          <div class="price">
+            <span class="final-price">$18.00 USD</span>
+            <span class="original-price">$24.00 USD</span>
+          </div>
+        </label>
+        <div class="selection">
+          <div class="row">
+            <label>#1</label>
+            <select id="size-1-unit2">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select id="color-1-unit2">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div class="row">
+            <label>#2</label>
+            <select id="size-2-unit2">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select id="color-2-unit2">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Second Card End -->
+
+      <!-- Third Card Start -->
+      <div class="option-box" id="unit-3-box">
+        <input type="radio" name="unit" id="unit-3" />
+        <label for="unit-3">
+          <div class="offer-header">
+            <span class="unit-label">3 Units</span>
+            <span class="discount-badge">30% Off</span>
+          </div>
+          <div class="price">
+            <span class="final-price">$24.00 USD</span>
+            <span class="original-price">$36.00 USD</span>
+          </div>
+        </label>
+        <div class="selection">
+          <div class="row">
+            <label>#1</label>
+            <select id="size-1-unit3">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select id="color-1-unit3">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div class="row">
+            <label>#2</label>
+            <select id="size-2-unit3">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select id="color-2-unit3">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div class="row">
+            <label>#3</label>
+            <select id="size-3-unit3">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select id="color-3-unit3">
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Third Card End -->
+
+      <!-- Total + Button -->
+      <p class="delivery">Free Delivery</p>
+      <p class="total-price">
+        Total: <span id="total-amount">$10.00 USD</span>
+      </p>
+      <button id="add-to-cart">+ Add to Cart</button>
+
+      <footer class="footer">© Powered by Pumper</footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
